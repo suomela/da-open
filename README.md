@@ -11,6 +11,7 @@ All of the questions are such that GPT-6 in Codex has ***not*** been able to sol
 - [One cycle versus two in massively parallel computation](questions/1-cycle-2-cycle.md)
 - [Distributed versus centralized matrix multiplication](questions/matrix-multiplication.md)
 - [Round-elimination fixed points for hard input-free problems on regular trees](questions/round-elimination.md)
+- [The degree dependence of deterministic LOCAL vertex coloring](questions/vertex-coloring.md)
 
 ## Contributors
 
