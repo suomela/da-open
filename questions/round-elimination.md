@@ -12,7 +12,7 @@ below:
 \boxed{
 \begin{gathered}
 \text{For every fixed integer }\Delta\ge 2\text{ and every feasible problem }P,\\[0pt]
-\operatorname{Rand}_P(n)=\Omega(\log\log n)\\[2pt]
+\mathrm{Rand}_P(n)=\Omega(\log\log n)\\[2pt]
 \Longrightarrow\quad
 \exists\text{ a finite problem }F\text{ of the same degree }\Delta:
 \quad P\to_0 F,\quad Q(F)\to_0 F,\quad T_\Delta\not\to_0 F.
@@ -91,7 +91,7 @@ randomized convention. In each round, a vertex may send a different
 message to each neighbor and then update its state from the received
 messages. There is no bound on message size or local computation.
 
-Define $`\operatorname{Rand}_P(n)`$ to be the minimum number $`t`$ of rounds sufficient for an
+Define $`\mathrm{Rand}_P(n)`$ to be the minimum number $`t`$ of rounds sufficient for an
 algorithm to output a legal $`P`$-labeling, with probability at least
 $`1-1/n`$, on **every** $`n`$-vertex tree in the class and for **every**
 allowed port numbering and arbitrary edge orientation. All vertices must
@@ -100,8 +100,8 @@ bits, and success means that **all** node and edge constraints hold
 simultaneously. This is a global success guarantee, not a guarantee for
 one vertex at a time.
 
-The lower bound $`\operatorname{Rand}_P(n)=\Omega(\log\log n)`$ means that there are constants
-$`c>0`$ and $`n_0`$ such that $`\operatorname{Rand}_P(n)\ge c\log\log n`$ for every admissible
+The lower bound $`\mathrm{Rand}_P(n)=\Omega(\log\log n)`$ means that there are constants
+$`c>0`$ and $`n_0`$ such that $`\mathrm{Rand}_P(n)\ge c\log\log n`$ for every admissible
 $`n\ge n_0`$. The constants may depend on $`P`$ and $`\Delta`$. Only sizes for which the
 specified trees exist are considered: for $`n\ge 2`$ these have the form
 $`n=(\Delta-1)k+2`$, where $`k`$ is the number of degree-$`\Delta`$ vertices.
@@ -233,7 +233,7 @@ A **negative solution** is one fixed degree $`\Delta`$ and one explicitly
 specified finite, feasible, input-free problem $`P`$, together with proofs
 that:
 
-1. $`\operatorname{Rand}_P(n)=\Omega(\log\log n)`$ in the model above; and
+1. $`\mathrm{Rand}_P(n)=\Omega(\log\log n)`$ in the model above; and
 2. for every finite problem $`F`$ of degree $`\Delta`$,
    $`P\to_0 F`$ and $`Q(F)\to_0 F`$ imply $`T_\Delta\to_0 F`$.
 

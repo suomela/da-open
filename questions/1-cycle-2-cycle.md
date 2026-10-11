@@ -179,7 +179,7 @@ $`r`$.
 
 For B, a constant-factor improvement to an $`O(\log n)`$ round count
 is insufficient. An algorithm requiring
-$`S=n/\operatorname{polylog}n=n^{1-o(1)}`$ does not meet the fixed
+$`S=n/\mathrm{polylog}\,n=n^{1-o(1)}`$ does not meet the fixed
 $`\delta<1`$ condition. An algorithm starting with a supplied
 orientation, cyclic order, or component decomposition must first show
 how to obtain that information within the stated bounds.
