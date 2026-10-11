@@ -13,6 +13,10 @@ All of the questions are such that GPT-6 in Codex has ***not*** been able to sol
 - [Round-elimination fixed points for hard input-free problems on regular trees](questions/round-elimination.md)
 - [The degree dependence of deterministic LOCAL vertex coloring](questions/vertex-coloring.md)
 
+## See also
+
+- [DA Slop](https://github.com/suomela/da-slop): AI-generated results in distributed algorithms
+
 ## Contributors
 
 The problems were suggested by:
